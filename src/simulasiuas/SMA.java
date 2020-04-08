@@ -36,7 +36,7 @@ public class SMA extends Murid{
     }
     
     public int kelasSMA(int kelas){
-        return this.kelas - 9;
+        return kelas - 9;
     }
 
     @Override
