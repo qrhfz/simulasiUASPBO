@@ -6,8 +6,8 @@
 package simulasiuas;
 
 /**
- *
- * @author mbohd
+ * Nama : Qori El-Hafizh
+ * NIM : A11.2018.11452
  */
 public class SMADemo {
     public static boolean isAlamatSama(SMA s1, SMA s2){

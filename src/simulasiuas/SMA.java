@@ -6,8 +6,8 @@
 package simulasiuas;
 
 /**
- *
- * @author mbohd
+ * Nama : Qori El-Hafizh
+ * NIM : A11.2018.11452
  */
 public class SMA extends Murid{
     private int kelas;
@@ -21,7 +21,11 @@ public class SMA extends Murid{
     }
 
     public void setKelas(int kelas) {
-        this.kelas = kelas;
+        
+        if(kelas>=10&&kelas<=12){
+            this.kelas = kelas;
+        }
+        
     }
 
     public int getKelas() {
