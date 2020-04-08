@@ -35,7 +35,7 @@ public class SMA extends Murid{
         setKelas(kelas);
     }
     
-    public int kelasSMA(){
+    public int kelasSMA(int kelas){
         return this.kelas - 9;
     }
 

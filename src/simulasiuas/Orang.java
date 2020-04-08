@@ -39,6 +39,6 @@ public class Orang {
     
     public void cetak(){
         System.out.println("Nama : "+ this.nama);
-        System.out.println("Nama : "+ this.alamat);
+        System.out.println("Alamat : "+ this.alamat);
     }
 }
